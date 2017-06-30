@@ -1,0 +1,45 @@
+{
+  "name": "webtemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pack.js",
+  "scripts": {
+    "build": "webpack -d -w -p --progress --colors",
+    "start": "bee run",
+    "init": "go get -u -v github.com/golang/dep/... && dep init && yarn install",
+    "update": "go get -u -v github.com/golang/dep/... && dep ensure -update -v && yarn upgrade",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "grayzone",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.18.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "socket.io-client": "^2.0.3",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "antd": "^2.7.2",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-import": "^1.1.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "css-loader": "^0.27.3",
+    "jquery": "^3.1.1",
+    "less": "^2.7.2",
+    "less-loader": "^3.0.0",
+    "postcss-loader": "^1.3.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.14.1",
+    "webpack": "^2.2.1"
+  }
+}

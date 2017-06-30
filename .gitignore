@@ -1,0 +1,17 @@
+node_modules/
+.vscode/
+vendor/
+download/
+data/
+
+*.db
+websocket
+websocket.exe*
+pack.js
+
+Gopkg.*
+yarn.*
+
+DEBUG
+
+

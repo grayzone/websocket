@@ -1,0 +1,1 @@
+<div id="welcome"></div>
